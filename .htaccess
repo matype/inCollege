@@ -1,0 +1,13 @@
+AuthUserFile /var/www/.htpasswd
+AuthGroupFile /dev/null
+AuthName "test basic"
+AuthType Basic
+require valid-user
+
+RewriteEngine On
+Rewritebase /
+
+# 
+#RewriteRule ^/?$ // [L,QSA]
+#RewriteRule ^novel/([0-9]+)/?$ novel.php?page=$1 [L,QSA]
+

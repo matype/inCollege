@@ -1,0 +1,13 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+@import "compass";
+ 
+a
+{
+    width:500px;
+    overflow:auto;
+    @include box-shadow(1px 1px 0 #ccc);
+}
